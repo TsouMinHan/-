@@ -39,6 +39,7 @@ while not done:
             done = True
 
     pygame.display.flip()   # 更新螢幕顯示畫面
+pygame.quit()  # 關閉pygame
 ```
 
 ## 建立方塊
@@ -63,6 +64,7 @@ while not done:
     pygame.draw.rect(screen, (0, 128, 255), (30, 30, 60, 60))
 
     pygame.display.flip()
+pygame.quit()
 ```
 
 ## 變更方塊顏色
@@ -102,6 +104,7 @@ while not done:
     pygame.draw.rect(screen, color, (30, 30, 60, 60))
 
     pygame.display.flip()
+pygame.quit()
 ```
 
 ## 方塊移動
@@ -159,6 +162,7 @@ while not done:
     pygame.display.flip()
 # =========HERE==========        
     clock.tick(60)
+pygame.quit()
 ```
 
 ## 設定邊界
@@ -202,6 +206,7 @@ while not done:
 
     pygame.display.flip()     
     clock.tick(60)
+pygame.quit()
 ```
 
 ## 建立圓形
@@ -252,6 +257,7 @@ while not done:
 
     pygame.display.flip()     
     clock.tick(60)
+pygame.quit()
 ```
 
 ## 碰撞偵測
@@ -309,6 +315,7 @@ while not done:
 
     pygame.display.flip()     
     clock.tick(60)
+pygame.quit()
 ```
 
 ## 顯示分數
@@ -372,4 +379,5 @@ while not done:
     screen.blit(text, (0, 0))
     pygame.display.flip()     
     clock.tick(60)
+pygame.quit()
 ```
