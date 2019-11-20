@@ -50,6 +50,8 @@ https://pypi.org/project/gTTS/
 
 ## 取得網頁資料
 ```python
+import requests
+
 base_url = "https://www.nfu.edu.tw/zh/"    # 設定網址
 
 res = requests.get(base_url)    # 對網頁發出請求
@@ -60,6 +62,7 @@ html = res.text    # 取得網頁Html原始碼
 
 ## 解析資料
 ```python
+from bs4 import BeautifulSoup
 soup = BeautifulSoup(html, 'html.parser')    # 解析Html程式碼
 # print(soup.prettify())    # 輸出排版後的Html程式碼
 ```
