@@ -48,32 +48,6 @@ https://pypi.org/project/gTTS/
 
 -----------
 
-requests
-開啟 Anaconda prompt 輸入:
-```bash
-conda install -c anaconda requests
-```
-py檔輸入:
-```python
-import requests
-```
-https://anaconda.org/anaconda/requests
-
------------
-
-BeautifulSoup
-開啟 Anaconda prompt 輸入:
-```bash
-conda install -c anaconda beautifulsoup4
-```
-py檔輸入:
-```python
-from bs4 import BeautifulSoup
-```
-https://anaconda.org/anaconda/beautifulsoup4
-
------------
-
 ## 取得網頁資料
 ```python
 base_url = "https://www.nfu.edu.tw/zh/"    # 設定網址
