@@ -20,14 +20,14 @@ conda install -c anaconda flask
 `Flask-Bootstrap`
 開啟 Anaconda prompt 輸入:
 ```bash
-conda install -c conda-forge flask-bootstrap
-# pip install Flask-Bootstrap
+conda install -c conda-forge flask-bootstrap 
+# pip install Flask-Bootstrap   # 課堂上使用這個
 ```
 
 `Flask-wtf`
 開啟 Anaconda prompt 輸入:
 ```bash
-conda install -c anaconda flask-wtf
+conda install -c anaconda flask-wtf  # 課堂上使用這個
 # pip install flask-wtf
 ```
 
@@ -44,6 +44,7 @@ def index():
     
 if __name__ == '__main__':
    app.run(host='127.0.0.1', port=8080, debug=True)
+   # app.run(host='127.0.0.1', port=8080)
 ```
 
 ## 建立網頁
@@ -66,6 +67,7 @@ def index():
     
 if __name__ == '__main__':
    app.run(host='127.0.0.1', port=8080, debug=True)
+   # app.run(host='127.0.0.1', port=8080)
 ```
 
 建立 templates/index.html
@@ -115,6 +117,7 @@ def index():
     
 if __name__ == '__main__':
    app.run(host='127.0.0.1', port=8080, debug=True)
+   # app.run(host='127.0.0.1', port=8080)
 ```
 
 ```html
@@ -148,6 +151,7 @@ if __name__ == '__main__':
     </div>
 
 </div>
+{% endblock %}
 ```
 
 ## 表單資料處理
@@ -203,6 +207,7 @@ def index():
     
 if __name__ == '__main__':
    app.run(host='127.0.0.1', port=8080, debug=True)
+   # app.run(host='127.0.0.1', port=8080)
 ```
 
 ## 建立Notify.py`
@@ -280,6 +285,7 @@ def index():
     
 if __name__ == '__main__':
    app.run(host='127.0.0.1', port=8080, debug=True)
+   # app.run(host='127.0.0.1', port=8080)
 ```
 
 ## 連結LineNotify
