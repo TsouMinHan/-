@@ -13,6 +13,7 @@
 `Flask`
 開啟 Anaconda prompt 輸入:
 ```bash
+# Anaconda 預設就有安裝
 conda install -c anaconda flask
 # pip install Flask
 ```
